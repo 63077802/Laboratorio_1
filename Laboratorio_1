@@ -1,0 +1,18 @@
+//Roberto Carlos Fuentes Munguia 
+// Declara las variables y asigna valores representando la cantidad actual de cada producto
+let camisetas = 80; // Cambia estos valores según sea necesario
+let pantalones = 120;
+let zapatos = 90;
+
+// Calcula el total de productos en el inventario
+let totalProductos = camisetas + pantalones + zapatos;
+
+// Imprime el total de productos en el inventario
+console.log("Total de productos en el inventario: " + totalProductos);
+
+// Verifica si es necesario reponer algún producto
+if (camisetas < 100 || pantalones < 100 || zapatos < 100) {
+    console.log("Es necesario reponer camisetas o pantalones o zapatos de acuerdo sea el caso.");
+} else {
+    console.log("No es necesario reponer ningún producto");
+}
